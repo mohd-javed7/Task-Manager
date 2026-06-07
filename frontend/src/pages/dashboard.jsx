@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { PlusIcon, TrashIcon, PencilIcon, CheckIcon, SparklesIcon, ClipboardDocumentListIcon } from '@heroicons/react/24/outline'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 
 const Dashboard = () => {
   const navigate = useNavigate()
