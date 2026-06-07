@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { PlusCircleIcon, CheckCircleIcon, LockClosedIcon } from '@heroicons/react/24/outline'
 import Navbar from '../components/navbar'
-import Footer from '../components/nooter'
+import Footer from '../components/footer'
 
 const Landing = () => {
   const navigate = useNavigate()
